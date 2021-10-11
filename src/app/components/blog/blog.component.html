@@ -1,0 +1,28 @@
+<app-search-bar  (coursesCange)="neka($event)" ></app-search-bar> 
+<div class="blog_main">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="blog_text">Courses</h1>
+            </div>
+        </div>
+        <div class="blog_section_2">
+            <div class="row d-flex justify-content-center">
+                
+                <div *ngIf="blogCourses.length == 0;then content else other_content">here is ignored</div>    
+                <ng-template #content><h1 class="font-weight-bold">no course found</h1></ng-template>
+                <ng-template #other_content><div class="col-sm-4" *ngFor="let c of blogCourses">
+                    <a [routerLink]="['/courses', c.id]">
+                        <div class="section_1">
+                            <div><img src="assets/images/{{c.image.imagePath}}" alt="{{c.image.imageAlt}}" style="max-width: 100%;"></div>
+                            <h2>{{c.nameCourse}}</h2>
+                            <h3>Price: {{c.price}}$</h3>
+                            <p>description: <b>{{ c.description| descript}}</b></p>
+                        </div>
+                    </a>
+                </div></ng-template>
+            </div>
+        </div>
+        
+       </div>
+</div>

@@ -1,0 +1,139 @@
+[
+    {
+        "id":1,
+        "nameCourse":"JAVA",
+        "category":{
+            "id":1,
+            "name":"programming languages"
+        },
+        "price":150,       
+        "description":"This class aim to teach basics concepts in Java and programming in the simplest possible ways. If you are completely new to programming and Java, We recommend you start with the first class and then get back to this one. This class is a bigger version of the first one, however, most concepts are reviewed in this class.",
+        "image":{
+            "imagePath":"programskiJezik1.jpg",
+            "imageAlt":"java"
+        }
+      
+    },
+    {
+        "id":2,
+        "nameCourse":"C#",
+        "category":{
+            "id":1,
+            "name":"programming languages"
+        },
+        "price":200,       
+        "description":"In this course I'll be taking you from having absolutely zero programming knowledge to becoming a C# programmer.Not only will we be covering the basic fundamentals of programming but, we'll also work our way up to some more advanced topics like inheritance, polymorphism, & interfaces.",
+        "image":{
+            "imagePath":"programskiJezik2.jpg",
+            "imageAlt":"c#"
+        }
+      
+    },
+    {
+        "id":3,
+        "nameCourse":"PHP",
+        "category":{
+            "id":1,
+            "name":"programming languages"
+        },
+        "price":180,       
+        "description":"Hey! I'm John. I created PHP 101. Let me tell you a little about the course and what you can expect to learn. I've been 'doing' web development for about 12 years now. And, when I first started learning PHP (back in the 'dark ages' of the web) sites like YouTube and SkillShare didn't even exist. So, there weren't a ton of really great tutorials. And, I really struggled.",
+        "image":{
+            "imagePath":"programskiJezik3.jpg",
+            "imageAlt":"php"
+        }
+      
+    },
+
+    {
+        "id":4,
+        "nameCourse":"electrical engineering",
+        "category":{
+            "id":2,
+            "name":"technical sciences"
+        },
+        "price":150,       
+        "description":"Electrical engineering is an engineering discipline concerned with the study, design and application of equipment, devices and systems which use electricity, electronics, and electromagnetism. It emerged as an identifiable occupation in the latter half of the 19th century after commercialization of the electric telegraph, the telephone, and electrical power generation, distribution and use.",
+        "image":{
+            "imagePath":"tehnika1.jpg",
+            "imageAlt":"electrical engineering"
+        }
+      
+    },
+    {
+        "id":5,
+        "nameCourse":"network administrator",
+        "category":{
+            "id":2,
+            "name":"technical sciences"
+        },
+        "price":130,       
+        "description":"A network administrator is responsible for keeping an organization’s computer network up-to-date and operating as intended. Any company or organization that uses multiple computers or software platforms needs a network admin to coordinate and connect the different systems. Seems simple enough—but there’s another common IT job title that is commonly confused: systems administrator.",
+        "image":{
+            "imagePath":"tehnika3.jpg",
+            "imageAlt":"network administrator"
+        }
+      
+    },
+
+    {
+        "id":6,
+        "nameCourse":"master of electrical devices",
+        "category":{
+            "id":2,
+            "name":"technical sciences"
+        },
+        "price":100,       
+        "description":"aster Electrical Devices - Manufacturer of digital penal meter, digital kwh meter & electronic and electric buzzer in Delhi.",
+        "image":{
+            "imagePath":"tehnika2.jpg",
+            "imageAlt":"master of electrical devices"
+        }
+      
+    },
+    {
+        "id":7,
+        "nameCourse":"English",
+        "category":{
+            "id":3,
+            "name":"lenguages"
+        },
+        "price":50,       
+        "description":"English language at all levels.",
+        "image":{
+            "imagePath":"straniJezik1.jpg",
+            "imageAlt":"English"
+        }
+      
+    },
+    {
+        "id":8,
+        "nameCourse":"French",
+        "category":{
+            "id":3,
+            "name":"lenguages"
+        },
+        "price":50,       
+        "description":"French language at all levels.",
+        "image":{
+            "imagePath":"straniJezik2.jpg",
+            "imageAlt":"French"
+        }
+      
+    },
+    {
+        "id":9,
+        "nameCourse":"Italian",
+        "category":{
+            "id":3,
+            "name":"lenguages"
+        },
+        "price":50,       
+        "description":"Italian language at all levels.",
+        "image":{
+            "imagePath":"straniJezik3.jpg",
+            "imageAlt":"Italian"
+        }
+      
+    }
+]

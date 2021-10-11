@@ -1,0 +1,29 @@
+<form  #form="ngForm" (ngSubmit)="onSubmit(form)">     
+<div class="container-fluid search-ordering pt-5 pb-3 d-flex justify-content-center align-items-center  flex-wrap" style="float: left;">
+  
+
+    <div class="search col-2 d-flex justify-content-center align-items-center">
+         
+            <div class="form-group mx-sm-3 col-12 mb-2">
+              <label for="" class="sr-only"  routerLink="/courses">search-icon</label>
+              <input type="search" name="search" ngModel class="form-control" placeholder="search..">
+            </div>
+    </div>
+    <div class="ordering col-3 d-flex justify-content-center align-items-center">
+        <div class="form-group col-12 d-flex flex-row">
+            <label class="mr-2" for="inputState">Category</label>
+            <select id="inputState" class="col-7 form-control ml-1" 
+            panelClass="sort-select" ngModel name="sort">
+            <option value="0">All courses</option>
+              <option value="1">programming languages</option>
+              <option value="2">technical sciences</option>
+              <option value="3">lenguages</option>
+            </select>
+          </div>
+    </div>
+    <div class="ordering col-1 d-flex justify-content-center align-items-center">
+      <button type="submit" class="btn btn-primary mb-2">Confirm</button> 
+    </div>
+  
+</div>
+</form> 
